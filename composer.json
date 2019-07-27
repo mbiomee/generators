@@ -1,6 +1,6 @@
 {
   "name": "mbiomee/generators",
-  "description": "forked from laracasts generators.",
+  "description": "generators for laravel forked from laracasts.",
   "keywords": ["laravel", "generators"],
   "license": "MIT",
   "authors": [
