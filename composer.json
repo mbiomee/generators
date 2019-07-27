@@ -1,0 +1,31 @@
+{
+  "name": "mbiomee/generators",
+  "description": "forked from laracasts generators.",
+  "keywords": ["laravel", "generators"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mostafa Biomee",
+      "email": "m.biomee@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mbiomee\\Generators\\": "src/"
+    }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "Mbiomee\\Generators\\GeneratorsServiceProvider"
+          ]
+      }
+  }
+}

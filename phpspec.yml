@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Mbiomee\Generators
+        psr4_prefix: Mbiomee\Generators
+        src_path: src
